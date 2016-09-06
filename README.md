@@ -48,6 +48,8 @@ You can create a KMS key in the AWS console, or with the aws command line tool:
 ```bash
 $ aws kms --region=us-west-2 create-key --description="kube-aws assets"
 ```
+
+```text
 {
     "KeyMetadata": {
         "CreationDate": 1458235139.724,
@@ -60,6 +62,7 @@ $ aws kms --region=us-west-2 create-key --description="kube-aws assets"
         "Description": "kube-aws assets"
     }
 }
+```
 You will use the KeyMetadata.Arn string to identify your KMS key in the init step.
 
 
