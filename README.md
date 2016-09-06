@@ -49,6 +49,8 @@ You can create a KMS key in the AWS console, or with the aws command line tool:
 $ aws kms --region=us-west-2 create-key --description="kube-aws assets"
 ```
 
+**output:**
+
 ```text
 {
     "KeyMetadata": {
